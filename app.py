@@ -1,5 +1,5 @@
 from flask import Flask, render_template
-#from externebestanden import bestand1 as been
+import bestand1 as been
 
 app = Flask(__name__)
 
