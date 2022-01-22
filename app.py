@@ -10,7 +10,7 @@ def index():
 @app.route("/een")
 def methodeEen():
     terug = been.eenmethodeinbestand1()
-    return "methodeEen"+terug
+    return "methodeeen "+terug
 
 @app.route("/twee")
 def methodeTwee():
