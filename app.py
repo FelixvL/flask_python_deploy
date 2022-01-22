@@ -9,8 +9,8 @@ def index():
 
 @app.route("/een")
 def methodeEen():
-    #terug = been.eenmethodeinbestand1()
-    return "methodeeen"
+    terug = been.eenmethodeinbestand1()
+    return "methodeeen" + terug
 
 #@app.route("/twee")
 #def methodeTwee():
