@@ -5,9 +5,9 @@ def eenmethodeinbestand1():
 
 
 def methodeMetReadFile():
-    pokemons = pd.read_csv("externebestanden/Pokemon.csv")
-    kolomnaam = pokemons.columns[4] 
-    return kolomnaam
+    #pokemons = pd.read_csv("externebestanden/Pokemon.csv")
+    #kolomnaam = pokemons.columns[4] 
+    return "kolomnaam"
 
 
 #methodeMetReadFile()

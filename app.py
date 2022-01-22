@@ -17,5 +17,3 @@ def methodeTwee():
     terug = been.methodeMetReadFile()
     return "methodeEen"+terug
 
-if __name__ == '__main__':
-    app.run(debug=True)
