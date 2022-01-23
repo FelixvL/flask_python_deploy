@@ -1,4 +1,4 @@
-import pandas as pd
+#import pandas as pd
 
 def eenmethodeinbestand1():
     return "dit komt uit methode 1"
