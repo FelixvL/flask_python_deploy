@@ -1,5 +1,5 @@
 from flask import Flask, render_template
-from bestand1 import eenmethodeinbestand1
+from bestand1 import *
 
 app = Flask(__name__)
 
@@ -12,8 +12,8 @@ def methodeEen():
     terug = eenmethodeinbestand1()
     return "methodeeen"+terug
 
-#@app.route("/twee")
-#def methodeTwee():
-#    terug = been.methodeMetReadFile()
-#    return "methodeEen"+terug
+@app.route("/twee")
+def methodeTwee():
+    terug = methodeMetReadFile()
+    return "methodeEen"+terug
 
